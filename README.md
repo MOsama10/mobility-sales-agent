@@ -1,7 +1,7 @@
-##Mobility Sales Agent
+#Mobility Sales Agent
 An intelligent, English-speaking sales assistant for mobility products (e.g., wheelchairs, scooters), powered by a knowledge graph and retrieval-augmented generation (RAG). This system assists users in selecting the right product by delivering accurate, context-aware responses based on structured domain knowledge.
 
-🚀 ##Features
+🚀 #Features
 
 Knowledge Graph Construction: Builds a knowledge graph from structured data for robust product information management.
 Contextual Question Answering: Utilizes RAG techniques to provide precise and relevant responses to user queries.
