@@ -1,7 +1,7 @@
-Mobility Sales Agent
+##Mobility Sales Agent
 An intelligent, English-speaking sales assistant for mobility products (e.g., wheelchairs, scooters), powered by a knowledge graph and retrieval-augmented generation (RAG). This system assists users in selecting the right product by delivering accurate, context-aware responses based on structured domain knowledge.
 
-🚀 Features
+🚀 ##Features
 
 Knowledge Graph Construction: Builds a knowledge graph from structured data for robust product information management.
 Contextual Question Answering: Utilizes RAG techniques to provide precise and relevant responses to user queries.
@@ -10,7 +10,7 @@ Extensible Design: Easily adaptable to other domains or product categories beyon
 
 
 🗂️ Project Structure
-'''
+```
 mobility-sales-agent/
 │
 ├── data/                    # Contains raw and intermediate data
@@ -29,41 +29,46 @@ mobility-sales-agent/
 ├── .env                     # Environment variables (excluded from Git)
 ├── .gitignore               # Git ignore rules
 └── README.md                # Project documentation
-'''
+```
 
-📦 Setup
+📦 ##Setup
 1. Clone the Repository
+```bash
 git clone https://github.com/MOsama10/mobility-sales-agent.git
 cd mobility-sales-agent
-
-2. Create a Virtual Environment (Optional but Recommended)
+```
+3. Create a Virtual Environment (Optional but Recommended)
+```bash
 python -m venv .venv
 .\.venv\Scripts\activate  # On Windows
 source .venv/bin/activate # On macOS/Linux
-
-3. Install Dependencies
+```
+4. Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 
 ⚙️ Usage
 
 Note: Ensure the .env file is configured with required keys (e.g., OpenAI, Neo4j credentials) before proceeding.
 
 Build the Knowledge Graph
+```bash
 python src/create_graph.py
-
+```
 Run the RAG-Based Sales Agent
+```bash
 python src/rag_system.py
+```
 
-
-🧠 Example Use Cases
+🧠 ##Example Use Cases
 
 Assist customers in selecting the optimal wheelchair based on budget, features, and specific needs.
 Provide accurate answers to product-related questions using structured knowledge, surpassing static FAQs.
 Deploy as part of online stores, kiosks, or customer support chatbots for enhanced user experience.
 
 
-🤝 Contributing
+🤝 ##Contributing
 Contributions are welcome! To contribute:
 
 Fork the repository.
