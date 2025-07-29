@@ -10,6 +10,7 @@ Extensible Design: Easily adaptable to other domains or product categories beyon
 
 
 🗂️ Project Structure
+'''
 mobility-sales-agent/
 │
 ├── data/                    # Contains raw and intermediate data
@@ -28,7 +29,7 @@ mobility-sales-agent/
 ├── .env                     # Environment variables (excluded from Git)
 ├── .gitignore               # Git ignore rules
 └── README.md                # Project documentation
-
+'''
 
 📦 Setup
 1. Clone the Repository
