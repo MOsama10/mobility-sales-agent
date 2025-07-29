@@ -1,0 +1,7 @@
+openai
+langchain
+langchain-community
+neo4j
+PyMuPDF
+python-dotenv
+pandas

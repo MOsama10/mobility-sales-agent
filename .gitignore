@@ -1,0 +1,20 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+rag_env/
+
+# Ignore everything in /data except /data/raw
+data/*
+!data/raw/
+!data/raw/**
+
